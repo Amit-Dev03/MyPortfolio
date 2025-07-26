@@ -5,6 +5,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import TechnicalSkills from "./components/TechnicalSkills";
 import Contact from "./components/Contact";
+import LogoScroller from "./components/LogoScroller";
 
 function App() {
   return (
@@ -13,10 +14,9 @@ function App() {
       <Home />
       <About />
       <Projects />
+      <LogoScroller />
       <TechnicalSkills />
       <Contact />
-
-
       <SocialLinks />
     </div>
   );
