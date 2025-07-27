@@ -18,7 +18,7 @@ const LogoScroller = () => {
             <img
               src={src}
               alt={alt}
-              className="h-16 w-auto object-contain grayscale hover:grayscale-0 transition duration-300 ease-in-out" //using object contain to prevent stretching
+              className="h-16 w-auto rounded-lg object-contain grayscale hover:grayscale-0 transition duration-300 ease-in-out" //using object contain to prevent stretching
             />
           </div>
         ))}
