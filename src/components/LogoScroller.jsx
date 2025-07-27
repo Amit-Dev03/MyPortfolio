@@ -8,17 +8,17 @@ const LogoScroller = () => {
       {/* Incorrect: .map((src, alt) => ...)
         Correct: Destructure the object { src, alt }
       */}
-      <div className="inline-flex w-max animate-scroll hover:[animation-play-state:paused] hover:animate-p motion-reduce:animate-none">
+      <div className="inline-flex bg-[#1e2836] w-max p-1 animate-scroll hover:[animation-play-state:paused] hover:animate-p motion-reduce:animate-none">
         {/* Map over the DUPLICATED array */}
         {duplicatedArray.map(({ src, alt }, index) => (
           <div
             key={`${alt}-${index}`}
-            className="mx-10 flex-shrink-0 relative w-[100px] h-[100px] flex justify-center" // Optional: Give logos a fixed width for consistency
+            className="mx-14  flex-shrink-0 relative w-[100px] h-[100px] flex justify-center" // Optional: Give logos a fixed width for consistency
           >
             <img
               src={src}
               alt={alt}
-              className=" max-w-fit rounded-2xl p-2 grayscale hover:grayscale-0 transition duration-300 ease-in-out" //using object contain to prevent stretching
+              className=" max-w-fit hover:shadow-lg hover:shadow-white rounded-2xl p-2 grayscale hover:grayscale-0 transition duration-300 ease-in-out" //using object contain to prevent stretching
             />
           </div>
         ))}
