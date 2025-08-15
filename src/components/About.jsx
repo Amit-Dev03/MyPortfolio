@@ -14,18 +14,13 @@ const About = () => {
                 border-gray-500'>About</p>
             </div>
             <p className='text-xl mt-7'>
-                Hi, I am Amit Pandey, a frontend developer who loves turning
-                ideas into interactive web experiences. With a keen eye for
-                design and a passion for clean code, I focus on building smooth,
-                responsive, and engaging user interfaces.I am always exploring new
-                technologies, refining my skills, and working on exciting projects. 
+               I am a Full Stack Developer specializing in the MERN stack and Java, currently pursuing my Master of Computer Applications (MCA). With hands-on experience in designing and deploying full-stack applications, I am skilled at building responsive, scalable, and high-performance web solutions.
             </p>
             <br />  
             <p  className='text-xl mt-2'>
-                Currently, I’m diving deep into React and JavaScript to create faster, more interactive web apps.
-                Recently, I developed a Shopping Cart using React and Redux, where I implemented efficient state management.
-                I’m passionate about creating seamless user experiences and improving accessibility for all.
-                Feel free to reach out for collaborations or just to talk tech!
+                My expertise spans the full development lifecycle, from creating dynamic frontends with React.js, Redux, and Tailwind CSS to engineering robust backends using Node.js and Express.js. I am proficient in developing RESTful APIs, implementing secure JWT authentication, and managing databases like MongoDB and Oracle. 
+
+I enjoy translating business needs into technical solutions and am dedicated to optimizing application performance. In my projects, I have achieved Lighthouse scores of 90+ by implementing asset delivery optimization, lazy loading, and code-splitting. I am currently seeking a Software Developer role where I can apply my skills in an Agile environment.
             </p> 
         </div>
 
