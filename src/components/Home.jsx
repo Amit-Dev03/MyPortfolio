@@ -13,13 +13,14 @@ const Home = () => {
 
             <div className='flex flex-col justify-center h-full'>
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>
-                    I'm a Front-End Developer.
+                    I'm a Full-stack Developer.
                 </h2>
                 <p className='text-gray-500 py-4 max-w-md'>
                      Hi everyone, I'm Amit Pandey, an MCA student at Jamia Millia Islamia (2024-26)
-                     with a passion for building amazing web experiences.
-                    Currently, I love to work on web application using Front-End technologies 
-                    like  HTML, Tailwind CSS , JavaScript & React. 
+                    I am a Full Stack Developer specializing in the MERN stack and Java. I build high-performance,
+                  full-stack web solutions using React.js for responsive frontends and Node.js for scalable backends.
+                  My passion lies in translating business needs into technical solutions, with a strong focus on performance optimization.
+                 I am actively seeking a Software Developer role where I can contribute my skills to an Agile team. 
                 </p>
 
                 <div>
